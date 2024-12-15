@@ -1,0 +1,79 @@
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header {  
+    background: #f7a313;  
+    color: #ffffff;  
+    padding: 10px 0;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+
+section {  
+    padding: 20px;  
+    margin: 20px;  
+}  
+
+.pet-card {  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 10px;  
+    text-align: center;  
+    margin-bottom: 20px;  
+}  
+
+.pet-card img {  
+    max-width: 100%;  
+    height: auto;  
+}  
+
+footer {  
+    text-align: center;  
+    background: #4CAF50;  
+    color: #ffffff;  
+    padding: 10px 0;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+form {  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+form label {  
+    margin-top: 10px;  
+}  
+
+form input, form textarea {  
+    padding: 10px;  
+    margin: 5px 0;  
+}  
+
+form button {  
+    margin-top: 10px;  
+    padding: 10px;  
+    background-color: #4CAF50;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+}

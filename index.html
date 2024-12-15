@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pet Adoption</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>GetPet</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="#about">About Us</a></li>  
+                <li><a href="#pets">Available Pets</a></li>  
+                <li><a href="#contact">Contact Us</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <section id="about">  
+        <h2>About Us</h2>  
+        <p>We believe that every pet deserves a loving home. Our mission is to connect furry friends with compassionate families, creating lifelong bonds and happy tails.<br>Adopt, don’t shop! Let’s make the world a better place, one paw at a time. 🐾❤️</p>  
+    </section>  
+
+    <section id="pets">  
+        <h2>Available Pets</h2>  
+        <div class="pet-card" id="pet1">  
+            <h3>Buddy</h3>  
+            <img src="download.jpeg" alt="Buddy">  
+            <p>Age: 2 years</p>  
+            <p>Breed: Labrador</p>  
+            <button onclick="adoptPet('Buddy')">Adopt Buddy</button>  
+        </div>  
+        <div class="pet-card" id="pet2">  
+            <h3>Bella</h3>  
+            <img src="download (1).jpeg" alt="Bella">  
+            <p>Age: 1 year</p>  
+            <p>Breed: Cat</p>  
+            <button onclick="adoptPet('Bella')">Adopt Bella</button>  
+        </div>  
+       
+    </section>  
+
+    <section id="contact">  
+        <h2>Contact Us</h2>  
+        <form onsubmit="handleSubmit(event)">  
+            <label for="name">Name:</label>  
+            <input type="text" id="name" required>  
+            <label for="email">Email:</label>  
+            <input type="email" id="email" required>  
+            <label for="message">Message:</label>  
+            <textarea id="message" required></textarea>  
+            <button type="submit">Send</button>  
+        </form>  
+    </section>  
+
+    <footer>  
+        <p>&copy; 2023 Pet Adoption Center</p>  
+    </footer>  
+
+    <script src="script.js"></script>  
+</body>  
+</html>
